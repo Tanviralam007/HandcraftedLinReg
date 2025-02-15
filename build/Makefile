@@ -128,6 +128,30 @@ HandcraftedLinReg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandcraftedLinReg.dir\build.make CMakeFiles/HandcraftedLinReg.dir/build
 .PHONY : HandcraftedLinReg/fast
 
+src/DataHandler.obj: src/DataHandler.cpp.obj
+.PHONY : src/DataHandler.obj
+
+# target to build an object file
+src/DataHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandcraftedLinReg.dir\build.make CMakeFiles/HandcraftedLinReg.dir/src/DataHandler.cpp.obj
+.PHONY : src/DataHandler.cpp.obj
+
+src/DataHandler.i: src/DataHandler.cpp.i
+.PHONY : src/DataHandler.i
+
+# target to preprocess a source file
+src/DataHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandcraftedLinReg.dir\build.make CMakeFiles/HandcraftedLinReg.dir/src/DataHandler.cpp.i
+.PHONY : src/DataHandler.cpp.i
+
+src/DataHandler.s: src/DataHandler.cpp.s
+.PHONY : src/DataHandler.s
+
+# target to generate assembly for a file
+src/DataHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HandcraftedLinReg.dir\build.make CMakeFiles/HandcraftedLinReg.dir/src/DataHandler.cpp.s
+.PHONY : src/DataHandler.cpp.s
+
 src/LinearRegression.obj: src/LinearRegression.cpp.obj
 .PHONY : src/LinearRegression.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... HandcraftedLinReg
+	@echo ... src/DataHandler.obj
+	@echo ... src/DataHandler.i
+	@echo ... src/DataHandler.s
 	@echo ... src/LinearRegression.obj
 	@echo ... src/LinearRegression.i
 	@echo ... src/LinearRegression.s

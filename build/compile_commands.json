@@ -1,14 +1,20 @@
 [
 {
   "directory": "G:/ml/HandcraftedLinReg/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/HandcraftedLinReg.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\HandcraftedLinReg.dir\\src\\main.cpp.obj -c G:\\ml\\HandcraftedLinReg\\src\\main.cpp",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/HandcraftedLinReg.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\HandcraftedLinReg.dir\\src\\main.cpp.obj -c G:\\ml\\HandcraftedLinReg\\src\\main.cpp",
   "file": "G:/ml/HandcraftedLinReg/src/main.cpp",
   "output": "CMakeFiles/HandcraftedLinReg.dir/src/main.cpp.obj"
 },
 {
   "directory": "G:/ml/HandcraftedLinReg/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/HandcraftedLinReg.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\HandcraftedLinReg.dir\\src\\LinearRegression.cpp.obj -c G:\\ml\\HandcraftedLinReg\\src\\LinearRegression.cpp",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/HandcraftedLinReg.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\HandcraftedLinReg.dir\\src\\LinearRegression.cpp.obj -c G:\\ml\\HandcraftedLinReg\\src\\LinearRegression.cpp",
   "file": "G:/ml/HandcraftedLinReg/src/LinearRegression.cpp",
   "output": "CMakeFiles/HandcraftedLinReg.dir/src/LinearRegression.cpp.obj"
+},
+{
+  "directory": "G:/ml/HandcraftedLinReg/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/HandcraftedLinReg.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\HandcraftedLinReg.dir\\src\\DataHandler.cpp.obj -c G:\\ml\\HandcraftedLinReg\\src\\DataHandler.cpp",
+  "file": "G:/ml/HandcraftedLinReg/src/DataHandler.cpp",
+  "output": "CMakeFiles/HandcraftedLinReg.dir/src/DataHandler.cpp.obj"
 }
 ]

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/HandcraftedLinReg.dir/src/DataHandler.cpp.obj"
+  "CMakeFiles/HandcraftedLinReg.dir/src/DataHandler.cpp.obj.d"
   "CMakeFiles/HandcraftedLinReg.dir/src/LinearRegression.cpp.obj"
   "CMakeFiles/HandcraftedLinReg.dir/src/LinearRegression.cpp.obj.d"
   "CMakeFiles/HandcraftedLinReg.dir/src/main.cpp.obj"
