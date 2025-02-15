@@ -35,7 +35,6 @@ DataHandler::DataHandler(const std::string& filename){
 void DataHandler::split_data(double train_ratio){
     std::random_device rd;
     std::mt19937 g(rd());
-
     std::shuffle(dataset.begin(), dataset.end(), g);
 
     size_t train_size = static_cast<size_t>(train_ratio * dataset.size());
