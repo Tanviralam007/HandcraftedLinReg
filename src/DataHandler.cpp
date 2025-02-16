@@ -60,3 +60,6 @@ void DataHandler::save_to_file(const std::string& filename, const std::vector<st
     file.close();
 }
 
+std::vector<std::pair<double, double>>& DataHandler::get_dataset(){
+    return dataset;
+}
