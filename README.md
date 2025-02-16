@@ -1,1 +1,1 @@
-## **simple linear regression in c++**
+**Simple linear regression in C++**
