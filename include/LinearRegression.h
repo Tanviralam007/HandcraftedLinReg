@@ -2,6 +2,7 @@
 #define LINEAR_REGRESSION_H
 
 #include <vector>
+#include <iostream>
 class LinearRegression{
     private:
         double m;
@@ -10,7 +11,7 @@ class LinearRegression{
         int num_iterations;
     
     public:
-        LinearRegression(double learning_rate, int num_iterations);
+        LinearRegression(double learning_rate = 0.01, int num_iterations = 1000);
 
         // method to train(fit) the model using the training data
         void fit(const std::vector<std::pair<double, double>>& training_data);
